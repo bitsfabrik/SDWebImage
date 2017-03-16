@@ -46,6 +46,9 @@
  * @endcode
  */
 @interface UIImageView (WebCache)
+    
+- (nullable NSURL *)sd_imageURL;
+- (void)sd_cancelCurrentImageLoad;
 
 /**
  * Set the imageView `image` with an `url`.
